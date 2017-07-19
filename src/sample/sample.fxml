@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import sample.MyButton?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <MyButton fx:id="green" layoutX="28.0" layoutY="55.0" mnemonicParsing="false" text="Green" />
+       <Label fx:id="result" layoutX="194.0" layoutY="14.0" mnemonicParsing="false">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <MyButton fx:id="red" layoutX="28.0" layoutY="106.0" mnemonicParsing="false" text="Red" />
+      <MyButton fx:id="blue" layoutX="28.0" layoutY="153.0" mnemonicParsing="false" text="Blue" />
+      <MyButton fx:id="yellow" layoutX="28.0" layoutY="203.0" mnemonicParsing="false" text="Yellow" />
+      <Label layoutX="26.0" layoutY="14.0" text="You select:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
